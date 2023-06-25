@@ -1,6 +1,14 @@
 # soichizunea.github.io
-Hello there.  This is merely a test.
-Sadly, the Java code does not seem to work.
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
 
-The documentation is also not even halfway complete.
-<html>Hello? <html/>
+<h1>Heading</h1>
+<p>
+  Hello there.  This is merely a test.  Sadly, the Java code does not seem to work.  The documentation is also not even halfway complete.
+</p>
+
+</body>
+</html>
