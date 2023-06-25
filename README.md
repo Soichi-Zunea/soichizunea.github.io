@@ -1,4 +1,3 @@
-# soichizunea.github.io
 <html>
 <head>
 <title>Page Title</title>
