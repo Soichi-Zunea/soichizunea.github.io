@@ -1,0 +1,146 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Toe Wiggle</title>
+
+        <!-- Load external CSS styles -->
+        <!--<link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+
+    <body>
+        
+        <h1>Game Calculator</h1>
+
+        <div id='starter' hidden>
+            
+            <button class="gameTitle" id='gam1' type="button"
+                onclick = stopToes(this.id)>
+                nil
+            </button>
+                
+            <button class="revertTitle" id='rev1' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="revertTitle" id='rev2' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="revertTitle" id='rev3' type="button"
+            onclick = stopToes(this.id)>nil</button>
+
+            <p></p>
+
+            <button class="categoryTitle" id='cat1' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="categoryTitle" id='cat2' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="categoryTitle" id='cat3' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="categoryTitle" id='cat4' type="button"
+            onclick = stopToes(this.id)>nil</button>
+
+            <button class="subsectionTitle" id='sub1' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub2' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub3' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub4' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub5' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub6' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub7' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub8' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub9' type="button"
+            onclick = stopToes(this.id)>nil</button>
+            <button class="subsectionTitle" id='sub10' type="button"
+            onclick = stopToes(this.id)>nil</button>
+
+            <!--Calculator Toes, inputs-->
+            <form>
+                <label class="calculatorTitle" id='label1'>
+                    nil</label>
+                <input class="calculatorTitle" id='textField1' type="number" min='0' value='1'
+                onchange="forceAmountToes(this.id)">
+                    </input>
+                <select class='calculatorTitle' name="dropdown1" id="dropdown1">
+                </select>
+                <input class="calculatorTitle" id='checkbox1' type="checkbox">
+                    </input>
+                <p></p>
+                <label class="calculatorTitle" id='label2'>
+                    nil</label>
+                <input class="calculatorTitle" id='textField2' type="number" min='0' value='0'
+                onchange="forceAmountToes(this.id)">
+                    </input>
+                <select class='calculatorTitle' name="dropdown2" id="dropdown2">
+                </select>
+                <input class="calculatorTitle" id='checkbox2' type="checkbox">
+                    </input>
+                <p></p>
+                <label class="calculatorTitle" id='label3'>
+                    nil</label>
+                <input class="calculatorTitle" id='textField3' type="number" min='0' value='0'
+                onchange="forceAmountToes(this.id)">
+                    </input>
+                
+                <select class='calculatorTitle' name="dropdown3" id="dropdown3">
+                </select>
+               
+                <input class="calculatorTitle" id='checkbox3' type="checkbox">
+                    </input>
+                <p></p>
+                <label class="calculatorTitle" id='label4'>
+                    nil</label>
+                <input class="calculatorTitle" id='textField4' type="number" min='0' value='0'
+                onchange="forceAmountToes(this.id)">
+                    </input>
+                <select class='calculatorTitle' name="dropdown4" id="dropdown4">
+                </select>
+                <input class="calculatorTitle" id='checkbox4' type="checkbox">
+                    </input>        
+                <p></p>
+                <button class="calculatorTitle" id='cal7' type="button"
+                onclick = stopToes(this.id)>
+                </button>
+
+                <!--Visual Labels and hopefully graphs later-->
+                <label class='visualTitle' id="vis1">
+                    nil</label>
+                <label class='visualTitle' id="vis2">
+                    nil</label>
+                <label class='visualTitle' id="vis3">
+                    nil</label>
+                <label class='visualTitle' id="vis4">
+                    nil</label>
+                <label class='visualTitle' id="vis5">
+                    nil</label>
+            </form>
+        </div>
+        <p id='demo'> 
+            Working on visuals, such as graphs and tables for when values have been submitted.<br>
+            Yes, I know that it looks rather bland, literally made this in 4 days with no prior knowledge on 
+            these three languages (HTML, JS, and CSS).
+
+        </p>
+        
+        <!-- Load external JavaScript, always near the end -->
+        <script src="scripts.js"></script>
+        <noscript>
+            You have JavaScript disabled.<br>
+            I am also planning to make it available for y'all as well, I don't know how 
+            JavaScript disabled functions, whether it stops all scripts from running or only JS.<br>
+            Literal noob, bing-chat says only JS but I still gotta test with PHP (also total noob at).
+            <!-- Create a visual for the JS disabled bros -->
+            
+        </noscript>
+    </body>
+
+</html>
